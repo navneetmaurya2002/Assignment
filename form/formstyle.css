@@ -1,0 +1,38 @@
+*{
+    margin:0%;
+    padding-left:0%;
+    background-color: rgb(225, 164, 33);
+}
+body{
+    margin: 1%;
+    width: auto;
+    font-size: vw;
+}
+
+.heading-tag{ 
+    color: rgb(31, 139, 233);
+    border:2px;
+    border-style: dashed;
+    border-color: rgba(223, 12, 12, 0.885);
+}
+h1{
+  font-family: sans-serif, monospace;
+  font-weight: bold; 
+}
+.heading-tag{
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    margin:20px;
+}
+legend{
+    font-size:x-large;
+    color:rgb(45, 104, 157);
+    border: 2px solid;
+}
+
+

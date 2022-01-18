@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/formstyle.css">
+    <title>Form</title>
+</head>
+<body>
+      <form method="get">
+          <b>
+                <h1 class="heading-tag"><marquee>Registration Form</marquee>  </h1>
+                <fieldset>
+                <table cellspacing="30px">
+              
+             <legend><h3>Personal Information</h3></legend>             
+             <tr>
+                 <td><label for="fname">First Name: <input type="text"  maxlength="20" name="fname"></label></td>
+                  
+                  <td><label for="mname">Middle Name : <input type="text" maxlength="20" name="mname"></label></td>
+
+                  <td><label for="lname">Last Name : <input type="text" maxlength="20" name="lname"></label></td>
+
+                  <tr>
+                  <td><label for="birthday">Date Of Birth  : <input type="date" name="birthday"></label></td>
+
+                  <td><label for="Gender">Gender : <input type="radio" name="Gender" value="Female" checked> Female <input type="radio" name="Gender" value="Male"> Male</label></td>
+                </tr>
+              </tr>
+              <tr>
+                <td><label for="number">Mobile Number : <input type="number" maxlength="10"  size="10" name="number"></label></td>
+
+                <td><label for="Email">Email: <input type="email" name="email"></label></td>
+
+                <td><label for="Address">Address: <input type="text" name="Address"></label></td>
+              </tr>
+            </ul>
+          </table>
+        </fieldset>
+        <fieldset>
+          <table cellspacing="30px"> 
+            <legend>
+              Highest Qualification
+            </legend>
+          <tr>
+            <td>
+            <label for="degree">
+              Degree:
+            <select name="degree">
+              <option value="BSc.IT" selected>BSc.IT</option>
+              <option value="Bsc.CS">BSc.CS</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="B.E">B.E</option>
+              <option value="BCA">BCA</option>              
+            </select>
+          </label>
+          </td>
+        
+          <td>
+          <label for="State">State: <input type="text" name="State"></label>
+          </td>
+        </tr>
+          <tr>
+          <td>
+            <label for="City"> City: <input type="text" name="City"></label>
+          </td>
+          <td>
+            <label for="college"> College: <input type="text" name="college"></label>
+            </td>
+            <td>
+              <label for="CGPA"> CGPA: <input type="number" name="CGPA" min="1.0"max="10.0" step="0.1" value="5"></label>
+            </td>
+
+        </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <table cellspacing="30px">
+            <legend>
+              Hobbies
+            </legend>
+            <tr>
+              <td>
+                <label for="Outdoor_Games">
+                  Outdoor Games : &nbsp;&nbsp;&nbsp;&nbsp;
+                  Cricket <input type="checkbox" name="Outdoor_Games" value="Cricket">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Football <input type="checkbox" name="Outdoor_Games" value="Football">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Volley-Ball <input type="checkbox" name="Outdoor_Games" value="Volley-ball">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label>
+              </td>
+            </tr>
+              <tr>
+                <td>
+                  <label for="Indoor_Games">
+                    Indoor Games : &nbsp;&nbsp;&nbsp;&nbsp;
+                    Carrom <input type="checkbox" name="Indoor_Games" value="Carrom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Chess <input type="checkbox" name="Indoor_Games" value="Chess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Cards <input type="checkbox" name="Indoor_Games" value="Cards">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Other">
+                    Other : &nbsp;&nbsp;&nbsp;&nbsp;
+                    Swimming <input type="checkbox" name="Other" value="Swimming">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Running <input type="checkbox" name="Other" value="Running">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Reading <input type="checkbox" name="Other" value="Reading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Coding <input type="checkbox" name="Other" value="Coding">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </label>
+                </td>
+              </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <table cellspacing=30px>
+            <legend>
+              Courses Available
+            </legend>
+            <tr>
+              <td>Courses: &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="Course" value="MSc.IT">
+                <a href="https://en.wikipedia.org/wiki/Master_of_Science_in_Information_Technology" target="_blank">MSc.IT</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Course" value="MSc.CS">
+                <a href="https://www.google.com/search?q=Msc.Cs&rlz=1C1VDKB_enIN974IN974&sxsrf=AOaemvIYw09kSGQ0vt7SmvAQ0WoQzRDreA%3A1639668191446&ei=31m7YaLPGsaImAXBvL2AAg&ved=0ahUKEwjiuuaA0Oj0AhVGBKYKHUFeDyAQ4dUDCA4&uact=5&oq=Msc.Cs&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIECAAQHjIECAAQHjIECAAQHjIECAAQHjoHCCMQsAMQJzoHCAAQRxCwAzoHCCMQ6gIQJzoKCC4QxwEQ0QMQQzoKCC4QxwEQowIQQzoFCAAQkQI6BAgAEEM6CwgAEIAEELEDEIMBOg4ILhCABBCxAxDHARDRAzoHCAAQsQMQQzoHCAAQyQMQQzoNCC4QsQMQxwEQowIQQzoKCC4QxwEQrwEQCjoICAAQgAQQyQM6BwgAEIAEEApKBAhBGABKBAhGGABQuwhYmhpgjBxoAnAAeACAAZ4BiAGvBpIBAzAuNpgBAKABAbABCsgBCcABAQ&sclient=gws-wiz" target="_blank">MSc.Cs</a> 
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Course" value="M.E">
+                <a href="https://www.google.com/search?q=M.E+course+details&rlz=1C1VDKB_enIN974IN974&sxsrf=AOaemvJ1JcNHg6GKT903GswYh-N3N4mkEA%3A1639668341489&ei=dVq7Yc2eHamXr7wPnYOb6AQ&ved=0ahUKEwiNrazI0Oj0AhWpy4sBHZ3BBk0Q4dUDCA4&uact=5&oq=M.E+course+details&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMggIABAWEAoQHjIICAAQFhAKEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BwgjEOoCECc6BAgjECc6BAgAEEM6BAguEEM6BQgAEJECOg0IABCABBCHAhCxAxAUOgsILhCABBCxAxCDAToLCAAQgAQQsQMQgwE6CggAEIAEEIcCEBQ6CAgAEIAEELEDOgsILhCABBDHARCvAToICAAQgAQQyQNKBAhBGABKBAhGGABQkgVYoEBglGJoAnACeAGAAfEBiAHHE5IBBjAuMTcuMZgBAKABAbABCsgBCMABAQ&sclient=gws-wiz" target="_blank">M.E</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Course" value="M.Tech">
+                <a href="https://www.google.com/search?q=m.tech+course+details&rlz=1C1VDKB_enIN974IN974&sxsrf=AOaemvLZ39QZDMFcRaP1Oz0VX7RYe7AHgw%3A1639668408386&ei=uFq7YbWGF7TCmAXezYOgCw&oq=M.tech+course+de&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjoHCCMQsAMQJzoICAAQsAMQkQI6CwgAELEDELADEJECOggIABCABBCwAzoNCAAQgAQQhwIQsAMQFDoICAAQ5AIQsAM6CwguEIAEEMgDELADOgQIIxAnOggIABCxAxCRAjoICAAQyQMQkQI6BQgAEJECOgoIABCABBCHAhAUOgUILhCRAjoFCC4QgARKBAhBGAFKBAhGGAFQpQJYohRgoxtoAXAAeACAAcQBiAH-CpIBBDAuMTCYAQCgAQHIARHAAQE&sclient=gws-wiz" target="_blank">M.Tech</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Course" value="MCA">
+                <a href="https://www.google.com/search?q=mca+course+details&rlz=1C1VDKB_enIN974IN974&sxsrf=AOaemvKQ5JVny170hQugMsuFwXQfKDXv-A%3A1639668438156&ei=1lq7YdqCCc-ymAXn9Ku4Ag&ved=0ahUKEwjaxbj20Oj0AhVPGaYKHWf6CicQ4dUDCA4&uact=5&oq=mca+course+details&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCggAEIAEEIcCEBQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBQgAEIAEOgcIABBHELADOgoIABBHELADEMkDOgQIABANOggIABANEAUQHjoICAAQCBANEB46BwgjELACECdKBAhBGABKBAhGGABQnQ1YyxxgjSJoBHACeACAAcABiAHrBpIBAzAuNpgBAKABAcgBCMABAQ&sclient=gws-wiz" target="_blank">MCA</a>
+            </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <br><br>
+        <input type="submit"  value="submit"/> 
+        <input type="reset" value="reset"/>
+        </form>
+    </b>
+</body>
+</html>

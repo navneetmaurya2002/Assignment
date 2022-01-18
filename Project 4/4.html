@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi-Booking-Form</title>
+</head>
+<body>
+    <form>
+        <h1>Taxi Booking Form</h1>
+        <label>Name <input type="text" name="name" required></label>
+        <br>
+        <br>
+        <label>Phone <input type="tel" name="phoneno" required></label>
+        <br>
+        <br>
+        <label>Email <input type="email" name="email"></label>
+        <br>
+        <br>
+        <label>Which Taxi do you require?
+            <br><br>
+            <label><input type="radio" name="vehicle" value="Car"> Car</label>
+            <br><br>
+            <label><input type="radio" name="vehicle" value="Van"> Van</label>
+            <br><br>
+            <label><input type="radio" name="vehicle" value="Tuktuk"> Tuk Tuk</label>
+        </label>
+        <br><br>
+        <label>
+            Extras
+            <br><br>
+            <label><input type="checkbox" name="extras" value="Babyseat">Baby seat</label>
+            <br><br>
+            <label><input type="checkbox" name="extras" value="wheelchair">wheelchair</label>
+            <br><br>
+            <label><input type="checkbox" name="extras" value="stocktip">stock tip</label>
+        </label>
+        <br><br>
+        <label>
+            Pickup date and time
+            <br><br>
+            <label><input type="datetime-local" required></label>
+        </label>
+        <br><br>
+        <label>
+            Pickup Place
+            <br><br>
+            <select name="place">
+                <option selected>Select One</option>
+                <option value="Taxioffice">Taxi Office</option>
+                <option value="Taxihall">Taxi Hall</option>
+                <option value="We-will-guess">We'll guess</option>
+            </select>
+        </label>
+        <br><br>
+        <label>
+            Special Instruction
+            <br><br>
+            <textarea name="comments" maxlength="500"></textarea>
+        </label>
+        <br><br>
+        <button>Submit Booking</button>
+    </form>
+</body>
+</html>
