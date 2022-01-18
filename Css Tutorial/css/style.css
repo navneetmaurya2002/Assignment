@@ -1,0 +1,73 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+body{
+	background-color: rgba(250, 235, 215, 0.748);
+}
+.header{
+	padding-top:20px ;
+	text-align: center;
+	padding-bottom: 40px;
+	font-family: 'Times New Roman', Times, serif monospace;
+}
+.header a{
+	text-decoration: none;
+	color:rgb(191, 146, 89);
+	transition: 0.3s;
+}
+.header a:hover{
+	color:rgba(191, 147, 89, 0.371);
+}
+.header-img img{
+	margin-top: 25px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height:70%;
+	max-height: 1200px;
+	width:80%;
+	border: 1px solid beige;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.header-img img:hover{
+	opacity: 0.9;
+}
+.formula{
+	margin-top: 20px;
+	font-family: serif monospace;
+	color:rgb(79, 160, 133);
+}
+.header{
+	margin-top: 30px;
+	font-size: 3vh;
+	box-shadow: 2px 2px 20px 0px rgba(40, 94, 93, 0.83);
+}
+
+.header h3,h4{
+	color:rgba(99, 83, 62, 0.741);
+}
+.body h1{
+	text-align: center;
+	border: 5px solid;
+	border-radius: 25%;
+	display: block;
+	width: 80%;
+	margin: 50px auto 10px auto;
+	padding: 5px;
+	font-size: 4vh;
+	border-color: rgba(97, 194, 162, 0.515);
+	color:rgba(25, 182, 130, 0.624);
+}
+.body ul{
+	list-style-image:url();
+	margin:0 auto 20px auto;
+	display: block;
+	width: 70%; 
+	font-size: 3vh;
+}
+.body ul li{
+	color:rgb(99, 83, 62);
+}
+
